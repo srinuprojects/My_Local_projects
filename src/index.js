@@ -19,10 +19,13 @@ import YupValidation from './components/YupValidation';
 import YupValidationComponent from './components/YupValidationComponent';
 import LifeCycleDemo  from './components/LifeCycleDemo';
 import ReactHookDemo from './components/ReactHookDemo';
+import UserLogin from './components/UseLogin';
+import { CookiesProvider } from 'react-cookie';
+import ReducerDemo from './components/ReducerDemo';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ReactHookDemo />
+    <ReducerDemo/>
   </React.StrictMode>
 );
 
